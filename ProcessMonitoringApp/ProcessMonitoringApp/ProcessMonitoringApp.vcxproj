@@ -138,7 +138,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CpuUsage.cpp" />
+    <ClCompile Include="Diagnostic.cpp" />
+    <ClCompile Include="DiskUsage.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryUsage.cpp" />
+    <ClCompile Include="Process.cpp" />
+    <ClCompile Include="CompareWstring.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CpuUsage.h" />
+    <ClInclude Include="Diagnostic.h" />
+    <ClInclude Include="DiskUsage.h" />
+    <ClInclude Include="MemoryUsage.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="CompareWstring.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
